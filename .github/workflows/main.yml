@@ -27,7 +27,7 @@ jobs:
           cx_client_secret: BQHNkrH9QleEGjTuwdAv8hoJNrFFO6Pm
 
           # Select a Checkmarx Project Name
-          project_name: ME_Velu_NodeGoat
+          project_name: ME_palan_NodeGoat1
 
           # Branch name
           #branch: master
@@ -39,11 +39,3 @@ jobs:
         with: 
         # Path to SARIF file relative to the root of the repository
           sarif_file: cx_result.sarif
-
-# Repository name for PR decoration
-# repo_name: # optional, default is ${{ github.event.repository.name }}
-# Organization name to create the Pr comment
-# namespace: # optional, default is ${{ github.repository_owner }}
-# Pr Number of the pull request that needs the decoration
-# pr_number: # optional, default is ${{ github.event.number }}
-          
