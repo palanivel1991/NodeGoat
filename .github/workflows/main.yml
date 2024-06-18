@@ -2,9 +2,9 @@ name: cxone
 on:
   push:
     branches:
-      #- main
+      - main
       - master
-      #- dev
+      - dev
 jobs:
   build:
     runs-on: ubuntu-latest
